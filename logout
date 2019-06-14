@@ -1,0 +1,6 @@
+<?php
+session_unset(); //removes all session variables
+session_destroy(); //Destroys the session
+
+header('location: admin.php');
+die();

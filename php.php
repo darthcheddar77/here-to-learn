@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body> 
+<?php include 'nav.php'; ?>
 <h1>My CRUD guide </h1>
 <h3>how to create (insert data)</h3>
 <pre><code>
