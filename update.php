@@ -31,9 +31,10 @@ $sql = "SELECT * FROM users WHERE id = $id";
 $statement = $connection->prepare($sql);
 $statement->execute();
 $user = $statement->fetch(PDO::FETCH_ASSOC);
-
 }
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
